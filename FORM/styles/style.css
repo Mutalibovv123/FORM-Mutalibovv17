@@ -1,0 +1,241 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hind';
+}
+
+.container {
+    max-width: 1340px;
+    width: 100%;
+    margin: 0% auto;
+}
+
+.form__container {
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#name {
+
+    border: 1px solid rgb(200, 190, 190);
+    border-radius: 12px;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Hind';
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 9px;
+
+}
+
+.edit {
+    font-size: 16px;
+    font-weight: 500px;
+    color: rgba(53, 53, 53, 1);
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    left: 40px;
+}
+
+.form__name {
+    font-size: 14px;
+    font-weight: 500px;
+    color: rgba(53, 53, 53, 1);
+    position: relative;
+    bottom: 55px;
+    left: 40px;
+}
+
+.form__email {
+    font-size: 14px;
+    font-weight: 500px;
+    color: rgba(53, 53, 53, 1);
+    position: relative;
+    bottom: 55px;
+    left: 40px;
+}
+
+#email {
+    border: 1px solid rgb(200, 190, 190);
+    border-radius: 12px;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Hind';
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 9px;
+}
+
+.first_part {
+    display: flex;
+    align-items: center;
+}
+
+.adress_billing {
+    font-size: 14px;
+    font-weight: 500px;
+    line-height: 20px;
+    color: rgba(53, 53, 53, 1);
+    position: relative;
+    left: 40px;
+    bottom: 10px;
+}
+
+.large__adress {
+    border: 1px solid rgb(200, 190, 190);
+    border-radius: 8px;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Roboto';
+    padding-top: 50px;
+    padding-right: 430px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    position: relative;
+    left: 40px;
+}
+
+.contact_part {
+    display: flex;
+    align-items: center;
+}
+
+.contact__name {
+    font-size: 14px;
+    font-weight: 500px;
+    line-height: 20px;
+    color: rgba(53, 53, 53, 1);
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+}
+
+#contact {
+    border: 1px solid rgb(200, 190, 190);
+    border-radius: 12px;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Hind';
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 9px;
+}
+
+.country__name {
+    font-size: 14px;
+    font-weight: 500px;
+    line-height: 20px;
+    color: rgba(53, 53, 53, 1);
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+}
+
+#country {
+    border: 1px solid rgb(200, 190, 190);
+    border-radius: 12px;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Hind';
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 9px;
+}
+
+.zip {
+    display: flex;
+    align-items: center;
+}
+
+.zip__code {
+    font-size: 14px;
+    font-weight: 500px;
+    line-height: 20px;
+    color: rgba(53, 53, 53, 1);
+    position: relative;
+    left: 55px;
+    bottom: 50px;
+}
+
+#zipcha {
+    border: 1px solid rgb(200, 190, 190);
+    border-radius: 12px;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Hind';
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 9px;
+    position: relative;
+
+}
+
+.vat__number {
+    font-size: 14px;
+    font-weight: 500px;
+    line-height: 20px;
+    color: rgba(53, 53, 53, 1);
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+}
+
+#vatcha {
+    border: 1px solid rgb(200, 190, 190);
+    border-radius: 12px;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Hind';
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 9px;
+    position: relative;
+    right: 30px;
+}
+
+.cancel {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.cancel_button {
+    border: 1px solid rgba(53, 53, 53, 1);
+    border-radius: 8px;
+    padding-top: 30px;
+    padding-right: 120px;
+    padding-bottom: 30px;
+    padding-left: 120px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgba(53, 53, 53, 1);
+    position: relative;
+    left: 70px;
+}
+
+.submit_button {
+    border: 1px solid rgba(53, 53, 53, 1);
+    border-radius: 8px;
+    padding-top: 30px;
+    padding-right: 120px;
+    padding-bottom: 30px;
+    padding-left: 120px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(160, 32, 240, 1);
+    position: relative;
+    left: 130px;
+}
